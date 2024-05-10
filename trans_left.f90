@@ -7,10 +7,7 @@ program translate_left    !Written by Aditya Barman
     character(len=100) :: input_file, output_filename
     character(len=100) :: new_directory_name, header
      
-
-    
-    
-  do j = 1 , 26
+   do j = 1 , 26
        ! Displacement of atoms
        dis = j * 0.5
        input_file = "Au-111-8*12*1-core-TPBZ.xyz"
@@ -56,19 +53,16 @@ program translate_left    !Written by Aditya Barman
     close(unit=10)
     close(unit=20)
     deallocate(atom, x, y, z)
- end do
+  end do
 
   write(*,*) "files are generated successfully by Schrodinger"
 
-contains
-
+ contains
     ! Function to convert integer to string
     function int2str(i) result(s)
         integer, intent(in) :: i
         character(len=10) :: s
         write(s, '(I10)') i
     end function int2str
-
-     
 end program translate_left
 
