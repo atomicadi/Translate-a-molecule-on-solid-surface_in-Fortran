@@ -16,7 +16,7 @@ program translate_left    !Written by Aditya Barman
        input_file = "Au-111-8*12*1-core-TPBZ.xyz"
  
        ! Open the input file
-       open(unit=10, file= input_file, status="old", action="read")
+       open(unit=10, file= input_file)
 
       ! Read the number of atoms  
        num_atoms = 976
