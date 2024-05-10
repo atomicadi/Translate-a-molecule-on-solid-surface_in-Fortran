@@ -6,7 +6,7 @@ program translate_left    !Written by Aditya Barman
     character(len=2), dimension(:), allocatable :: atom
     character(len=100) :: input_file, output_filename
     character(len=100) :: new_directory_name, header
-    !character(len=100) :: line
+     
 
     
     
