@@ -39,12 +39,12 @@ program translate_left    !Written by Aditya Barman
     ! Write the modified atomic coordinates to standard output
     write(20, '(i4)') num_atoms
     write(20, '(a9)') header
-    ! Write the modified atomic coordinates to standard output
+    ! Write the un-modified atomic coordinates to standard output
     do i = 1, 826
         write(20, '(a2, 3F12.6)') atom(i), x(i), y(i), z(i)
     end do
  
-    ! Write the un-modified atomic coordinates to standard output
+    ! Write the modified atomic coordinates to standard output
     do i = 827, num_atoms
         write(20, '(a2, 3F12.6)') atom(i), x(i) - dis, y(i), z(i) 
     end do
