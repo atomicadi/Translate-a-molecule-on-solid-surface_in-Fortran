@@ -1,7 +1,7 @@
 ! Aditya Barman, Project Associate, Maniapl University Jaipur, India; April 15, 2024
 ! Email: atomicadi2023@gmail.com
 
-program translate_left    !Written by Aditya Barman
+program translate
     implicit none
     real, dimension(:), allocatable :: x, y, z
     integer :: i, j, num_atoms
