@@ -1,3 +1,6 @@
+! Aditya Barman, Project Associate, Maniapl University Jaipur, India; April 15, 2024
+! Email: atomicadi2023@gmail.com
+
 program translate_left    !Written by Aditya Barman
     implicit none
     real, dimension(:), allocatable :: x, y, z
@@ -65,4 +68,3 @@ program translate_left    !Written by Aditya Barman
         write(s, '(I10)') i
     end function int2str
 end program translate_left
-
