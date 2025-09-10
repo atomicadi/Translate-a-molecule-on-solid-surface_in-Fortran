@@ -1,4 +1,4 @@
-# Translate-a-molecule-on-solid-surface
+# Translate a molecule on solid surface in Fortran
 In this Fortran (.f90) code, a molecule (denoted by "M", in the rest of the README) which is nearly situated at the middle of a solid surface, is translated in the left side by 0.5 angstrom(A) (in angstrom unit) in each step.\
 Let's break down the code,
 1. After giving all the parameters and variables, first the M is transalated to 13 A, so the iterate value is take 1 to 26 (j).
