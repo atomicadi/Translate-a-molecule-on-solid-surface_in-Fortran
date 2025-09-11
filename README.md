@@ -9,7 +9,7 @@ In this Fortran code (**translate.f90**), a molecule (denoted by "M", in the res
 2. Then the coordinates of M and the Au(111) surface are collected in a matrix format. Keeping the coordinates of Au unchanged, the value of dis is added or subtracted (depending on the direction) from the coordinates of M. Here, dis is subtracted only from the X-axis coordinate to move along the X direction in each iteration, and an output file is generated at each step.
 
 
-One can simply achieved the results by following this simple commands:
+One can simply achieve the results by following these simple commands:
 ```
 gfortran translate.f90
 ./a.out
